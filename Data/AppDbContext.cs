@@ -9,5 +9,6 @@ namespace ProjetoDBZ.Data
     public AppDbContext(DbContextOptions options) : base(options) { }
 
     public DbSet<Personagem> DBZ { get; set; }
+    public DbSet<User> Users { get; set; }
   }
 }

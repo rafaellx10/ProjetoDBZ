@@ -21,6 +21,7 @@ appsettings.Local.json
 
 # EF Core Migrations snapshot (se quiser evitar conflitos)
 Migrations/*.csproj.EntityFrameworkCore.Snapshot.cs
+/Migrations
 
 # Logs
 *.log
